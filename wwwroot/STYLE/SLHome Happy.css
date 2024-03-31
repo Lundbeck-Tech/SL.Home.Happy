@@ -129,6 +129,11 @@ body .main-content-wrap > .bottom .illu {
   padding: 7px;
   line-height: 1.6;
 }
+.text-wrap > .link-wrap {
+  padding-top: 40px;
+  padding-left: unset;
+  text-align: center;
+}
 .text-wrap > .solutions-wrap > a {
   text-decoration: none;
   font-weight: bold;
@@ -146,5 +151,13 @@ body .main-content-wrap > .bottom .illu {
 @media (min-width: 768px) {
   .text-wrap {
     padding: 22px;
+  }
+  .text-wrap > .link-wrap {
+    text-align: unset;
+    padding-top: 40px;
+    padding-left: 120px;
+  }
+  .text-wrap > .solutions-wrap {
+    margin-top: 20px;
   }
 }
