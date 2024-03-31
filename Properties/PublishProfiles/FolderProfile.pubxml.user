@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>D:\GoogleDrive\Projects\LC_TECH\Sites\SL.Home.Happy\bin\Release\net8.0\publish\</_PublishTargetUrl>
-    <History>True|2024-03-31T13:56:48.0531198Z;True|2024-03-31T15:50:40.5274838+02:00;True|2024-03-31T14:28:32.0136765+02:00;True|2024-03-31T14:27:22.3515044+02:00;True|2024-03-31T08:40:49.4478766+02:00;True|2024-03-31T05:40:05.3929094+02:00;</History>
+    <History>True|2024-03-31T14:06:37.9654441Z;True|2024-03-31T15:56:48.0531198+02:00;True|2024-03-31T15:50:40.5274838+02:00;True|2024-03-31T14:28:32.0136765+02:00;True|2024-03-31T14:27:22.3515044+02:00;True|2024-03-31T08:40:49.4478766+02:00;True|2024-03-31T05:40:05.3929094+02:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

@@ -87,7 +87,7 @@ body .main-content-wrap > .bottom .illu {
 
 @media (min-width: 768px) {
   body .main-content-wrap {
-    grid-template-rows: 140px auto 363px;
+    grid-template-rows: 140px 437px 363px;
   }
   body .main-content-wrap > .top > header {
     justify-content: center;
