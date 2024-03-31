@@ -1,0 +1,32 @@
+﻿@import "Creator//Media";
+
+.text-wrap {
+    padding: 7px;
+    line-height: 1.6;
+
+    & > .solutions-wrap {
+        & > a {
+            text-decoration: none;
+            font-weight: bold;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        & > span.separator {
+            $mrg: 12px;
+
+            font-size: 22px;
+            margin-left: $mrg;
+            margin-right: $mrg;
+            opacity: 0.4;
+        }
+    }
+}
+
+@include media() {
+    .text-wrap {
+        padding: 22px;
+    }
+}
