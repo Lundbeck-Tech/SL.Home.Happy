@@ -7,18 +7,22 @@
   padding-left: unset;
   text-align: center;
 }
-.text-wrap > .solutions-wrap > a {
+.text-wrap > .solutions-wrap a {
   text-decoration: none;
   font-weight: bold;
+  color: #2355a1;
 }
-.text-wrap > .solutions-wrap > a:hover {
+.text-wrap > .solutions-wrap a:hover {
   text-decoration: underline;
+}
+.text-wrap > .solutions-wrap a.source-code-link {
+  color: #0b4294;
 }
 .text-wrap > .solutions-wrap > span.separator {
   font-size: 22px;
   margin-left: 12px;
   margin-right: 12px;
-  opacity: 0.4;
+  opacity: 0.2;
 }
 
 @media (min-width: 768px) {

@@ -70,6 +70,7 @@ body .main-content-wrap > .bottom .illu {
 }
 #BarMenu a {
   text-decoration: none;
+  color: white;
 }
 #BarMenu hr {
   display: none;
@@ -119,6 +120,9 @@ body .main-content-wrap > .bottom .illu {
   }
   #BarMenu hr {
     display: block;
+  }
+  #BarMenu a {
+    margin-top: 7px;
   }
   #BarMenu span.separator {
     display: none;

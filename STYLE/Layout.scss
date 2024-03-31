@@ -88,6 +88,7 @@ body {
 
     & a {
         text-decoration: none;
+        color: white;
     }
 
     & hr {
@@ -158,6 +159,10 @@ body {
 
         & hr {
             display: block;
+        }
+
+        & a {
+            margin-top: 7px;
         }
 
         & span.separator {
