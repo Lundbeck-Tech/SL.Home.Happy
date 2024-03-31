@@ -4,6 +4,7 @@
     @Description          : null
 */
 
+using LC.Assets.Core;
 using LC.Assets.Core.Components;
 using LC.Assets.Core.Components.ApplicationFeatures;
 
@@ -11,6 +12,6 @@ WebApplicationBuilder bld = WebApplication.CreateBuilder(args);
 
 AssetsConfig.AddAssets(bld,
     new SSL(),
-    new Minify(),
+    new Minify(MinifyTargets.Production),
     new Localization(),
     new DefaultRoute("SL", "Index"));
