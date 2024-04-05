@@ -27,5 +27,7 @@ namespace SL.Home.Happy.Controllers
 
             return RedirectToActionPermanent("Index", "SL");
         }
+
+        public IActionResult CV() => View();
     }
 }

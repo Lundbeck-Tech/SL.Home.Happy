@@ -111,7 +111,7 @@ body {
 @include media() {
     body {
         & .main-content-wrap {
-            grid-template-rows: 140px 437px 363px;
+            grid-template-rows: 140px 467px 363px;
 
             & > .top {
                 & > header {
