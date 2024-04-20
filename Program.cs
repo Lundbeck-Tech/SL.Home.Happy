@@ -13,5 +13,5 @@ WebApplicationBuilder bld = WebApplication.CreateBuilder(args);
 AssetsConfig.AddAssets(bld,
     new SSL(),
     new Minify(MinifyTargets.Production),
-    new Localization(),
+    new Content(),
     new DefaultRoute("SL", "Index"));
