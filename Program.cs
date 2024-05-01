@@ -11,7 +11,6 @@ using SL.Assets.Core.Components.ApplicationFeatures;
 WebApplicationBuilder bld = WebApplication.CreateBuilder(args);
 
 AssetsConfig.AddAssets(bld,
-    new SSL(),
     new Minify(MinifyTargets.Production),
     new Content(),
     new DefaultRoute("SL", "Index"));
