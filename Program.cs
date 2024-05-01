@@ -4,9 +4,9 @@
     @Description          : null
 */
 
-using LC.Assets.Core;
-using LC.Assets.Core.Components;
-using LC.Assets.Core.Components.ApplicationFeatures;
+using SL.Assets.Core;
+using SL.Assets.Core.Components;
+using SL.Assets.Core.Components.ApplicationFeatures;
 
 WebApplicationBuilder bld = WebApplication.CreateBuilder(args);
 

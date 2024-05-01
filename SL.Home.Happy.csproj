@@ -7,10 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\DEV\Assets\LT.Assets.Core\LT.Assets.Core.csproj" />
-    <ProjectReference Include="..\..\DEV\Assets\LT.Assets\LT.Assets.csproj" />
-    <ProjectReference Include="..\..\DEV\Assets\LT.Components.Core\LT.Components.Core.csproj" />
-    <ProjectReference Include="..\..\DEV\Assets\LT.Components\LT.Components.csproj" />
+    <ProjectReference Include="..\..\DEV\Assets\SL.Assets.Core\SL.Assets.Core.csproj" />
+    <ProjectReference Include="..\..\DEV\Assets\SL.Assets\SL.Assets.csproj" />
+    <ProjectReference Include="..\..\DEV\Assets\SteinLundbeck.Conponents.Core\SteinLundbeck.Conponents.Core.csproj" />
+    <ProjectReference Include="..\..\DEV\Assets\SteinLundbeck.Conponents\SteinLundbeck.Conponents.csproj" />
     <ProjectReference Include="..\..\DEV\Creator\Creator.Components\Creator.Components.csproj" />
   </ItemGroup>
 
